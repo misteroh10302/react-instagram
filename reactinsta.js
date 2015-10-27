@@ -25,33 +25,17 @@
   </head>
   <body>
 
-    <!--
-    Assuming you install React with Bower, you include React,
-    then the JSXTransformer which turns JSX into JavaScript 
-    and then your React code.
-    
-    In production, you'll want to not use the JSXTransformer
-    and should instead look at using something like Gulp, Grunt or
-    WebPack to compile JSX into JavaScript. Also, check out:
-    http://facebook.github.io/react/docs/tooling-integration.html
-    -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
     <script src="http://fb.me/JSXTransformer-0.12.2.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
  
-    
-    <!--
-    This is where you link to your React code. Can be .js or .jsx 
-    extension, doesn't really matter.
-    -->
     <div id="content">
         <div class="nav"></div>
         <div class="insta-ctn js-insta-ctn"></div>
     </div>
 
-    
-
+  
     <script type="text/jsx">
 /** @jsx React.DOM */
 
