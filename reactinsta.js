@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>A new language!</title>
+    <title>React Hello World</title>
     <style> 
 
     #content {
@@ -32,6 +32,8 @@
         <div class="nav"></div>
         <div class="insta-ctn js-insta-ctn"></div>
     </div>
+
+    <div id="footer"></div>
 
     
 
@@ -167,6 +169,22 @@ ReactDOM.render(
     nav
 );
 
+var FooterElements = React.createClass({
+    render:function(){
+        return(
+
+            <div className="footer">
+                House of Madeline
+            </div>
+            )
+    }
+});
+
+ReactDOM.render(
+
+    <FooterElements />, footer
+
+    );
 
     </script>
   </body>
